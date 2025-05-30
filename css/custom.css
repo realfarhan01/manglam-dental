@@ -380,7 +380,8 @@ body{
 header.main-header{
 	background-color: var(--secondary-color);
 	border-bottom: 1px solid var(--dark-divider-color);
-	position: relative;
+	position: sticky;
+	top: 0px;
 	z-index: 100;
 }
 
@@ -435,7 +436,7 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul li a{
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 500;
 	padding: 14px 5px !important;
 	color: var(--primary-color);
@@ -492,7 +493,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul ul li a{
 	color: var(--white-color);
-	padding: 8px 20px !important;
+	padding: 5px 20px !important;
 	transition: all 0.3s ease-in-out;
 }
 
