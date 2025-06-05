@@ -471,7 +471,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	top: 100%;
 	overflow: hidden;
-	background-color: var(--primary-color);
+	background-color: #EFF8FF;
 	transition: all 0.3s ease-in-out;
 	text-align: left;
 }
@@ -492,7 +492,7 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul ul li a{
-	color: var(--white-color);
+	color: #0e384c;
 	padding: 5px 20px !important;
 	transition: all 0.3s ease-in-out;
 }
@@ -2547,7 +2547,7 @@ footer.main-footer{
 }
 
 .service-single-content{
-	padding-bottom: 100px;
+/*	padding-bottom: 100px;*/
 }
 
 .service-featured-image{
