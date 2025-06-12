@@ -5256,3 +5256,6 @@ footer.main-footer{
         font-size: 28px;
     }
 }
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    height: 600px;
+}
